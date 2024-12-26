@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE-edge" />
+	<meta name="viewport" content="width-device-wdth, initial-scale=1.0" />
+
+	<title>Video Tag</title>
+</head>
+<body>
+	<h1>Video Tag</h1>
+	<h3>width, height and controls attributes are used.</h3>
+	<video width="320" height="240" controls>
+		<source src="media/randomvid.mp4" type="video/mp4" />
+		Your browser does not support the video tag
+	</video>
+	<h3>With Autoplay</h3>
+	<h5>Autoplay may not always work in browsers, so controls with autoplay attribute is recommended</h5>
+	<video width="320" height="240" autoplay>
+		<source src="media/randomvid.mp4" type="video/mp4" />
+		Your browser does not support the video tag
+	</video>
+	<h3>With controls and autoplay attribute</h3>
+	<video width="320" height="240" controls autoplay>
+		<source src="media/randomvid.mp4" type="video/mp4" />
+		Your browser does not support the video tag
+	</video>
+	</video>
+	<h3>Youtube video</h3>
+	<p>
+	Video tag supports only video formats (like mp4 etc).Youtube does not expose its raw video files - it only exposes the unique id of the video. Since that id does not correspond to the actual file, video tag cannot be used.</p>
+	<p>
+	If you do get hold of the actual source file using one of the youtube download sites or soft wares, you will be able to use the video tag. But even then, the url of the actual source will cease to work after a set time. So your video also will work only till then.</p>
+	<p>
+	Youtube doesn't output their video's in the right format, thus they can't be embedded in a video element.
+	There are a few solutions posted using javascript, but don't trust on those, they all need a fallback, and won't work cross-browser.</p>
+	<video width="320" height="240" controls>
+		<source src="https://www.youtube.com/watch?v=k1O7phh4mrI" type="video/mp4" />
+		Your browser does not support the video tag
+	</video>
+	<h3>muted video</h3>
+	<video width="320" height="240" controls muted>
+		<source src="media/randomvid.mp4" type="video/mp4" />
+		Your browser does not support the video tag
+	</video>
+
+</body>
+</html>

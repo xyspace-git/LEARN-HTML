@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE-edge" />
+	<meta name="viewport" content="width-device-wdth, initial-scale=1.0" />
+
+	<title>Table tag</title>
+</head>
+<body>
+	<p>
+		To create a table in a webpage, we use some specific tags:
+		<ul>
+			<li>'table' tag is used to make a table, with attribute "border" so that it can make a border of the table.</li>
+			<li>'tr' tag is used to specify table row. To define each row, we first need to write the table row tag.</li>
+			<img src="media/reffig.png" alt="reference figure" width="294" height="219" />
+			<li>'th' tag stands for table head, which is used to define the headings of the first row. so, inside the first row 'tr', we use the 'th' tag</li>
+			<li>'td' tag stands for table data. We will write our cell data using the td tag</li>
+		</ul>
+	</p>
+
+	<table border="1" width="300" align="center" bgcolor="cyan">
+		<tr align="center" bgcolor="blue"><!-- row 1 -->
+			<!-- Creating three headings -->
+			<th>Serial No</th>
+			<th>Name</th>
+			<th>Price</th>
+		</tr>
+		<tr align="center"><!-- row 2 -->
+			<!-- filling in data -->
+			<td>1</td>
+			<td>Dish Soap</td>
+			<td bgcolor="red">$17</td>
+		</tr>
+		<tr align="center"><!-- row 3 -->
+			<!-- filling in data -->
+			<td>2</td>
+			<td>Perfume</td>
+			<td>$14</td>
+		</tr>
+		<tr align="center"><!-- row 2 -->
+			<!-- filling in data -->
+			<td>3</td>
+			<td>Milk</td>
+			<td>$9</td>
+		</tr>
+	</table>
+</body>
+</html>

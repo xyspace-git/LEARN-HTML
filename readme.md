@@ -16,6 +16,9 @@ Welcome to **LEARN-HTML** — a hands-on tutorial series designed for beginners 
 - **Lists & Tables**: Organizing content using ordered/unordered lists and tables.
 - **Forms**: Building interactive forms with various input types.
 - **Display Properties**: Exploring block, inline, and inline-block elements.
+- to be added: Div and Span Tag, styling elements
+- to be added: CSS examples
+- to be added: JS examples
 
 ---
 

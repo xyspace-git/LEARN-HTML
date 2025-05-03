@@ -16,6 +16,9 @@ Welcome to **LEARN-HTML** — a hands-on tutorial series designed for beginners 
 - **Lists & Tables**: Organizing content using ordered/unordered lists and tables.
 - **Forms**: Building interactive forms with various input types.
 - **Display Properties**: Exploring block, inline, and inline-block elements.
+- to be added: Div and Span Tag, styling elements
+- to be added: CSS examples
+- to be added: JS examples
 
 ---
 
@@ -70,9 +73,6 @@ git push origin feature/YourFeature
 ```
 5. Open a pull request.
 ---
-## 📄 License
-This project is open-source and available under the MIT License.
-
 ## 📬 Contact
 For questions or suggestions, feel free to open an issue or contact the repository maintainer at xyspace-git.
 > +91 75500 87946

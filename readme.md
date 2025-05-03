@@ -73,9 +73,6 @@ git push origin feature/YourFeature
 ```
 5. Open a pull request.
 ---
-## 📄 License
-This project is open-source and available under the MIT License.
-
 ## 📬 Contact
 For questions or suggestions, feel free to open an issue or contact the repository maintainer at xyspace-git.
 > +91 75500 87946
